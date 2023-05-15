@@ -7,7 +7,7 @@ module Viridis
   def range(steps)
     Colors.new('viridis').range(steps)
   end
-  
+
   module_function :range
 
 
@@ -26,6 +26,12 @@ module Viridis
   class Plasma
     def self.range(steps)
       Colors.new('plasma').range(steps)
+    end
+  end
+
+  class Cerulean
+    def self.range(steps)
+      Colors.new('cerulean').range(steps)
     end
   end
 end

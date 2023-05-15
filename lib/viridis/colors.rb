@@ -1,5 +1,5 @@
 class Viridis::Colors
-  SUPPORTED_PALLETS = %w[viridis magma inferno plasma]
+  SUPPORTED_PALLETS = %w[viridis magma inferno plasma cerulean].freeze
 
   attr_reader :palette, :palette_length
 
